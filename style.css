@@ -1,0 +1,191 @@
+/* ############################################################
+Imports
+############################################################ */
+/* Import fonts: https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+/* ############################################################
+The Great Reset
+############################################################ */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* ############################################################
+Variables
+############################################################ */
+:root {
+    --main-color: #cbcbd4;
+    /* var(--main-color) */
+    --dark-color: #3d348b;
+    /* var(--dark-color) */
+    --intermed-color: #ABDAFC;
+    /* var(--intermed-color) */
+    --accent-color: #EDD83D;
+    /* var(--accent-color) */
+    --opp-dark-color: #464F51;
+    /* var(--opp-dark-color) */
+    --font-color: #52aa5e;
+    /* var(--font-color) */
+    --font: 'Audiowide', cursive;
+    /* var(--font) */
+}
+
+/* ############################################################
+Utility Classes
+############################################################ */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+    margin-bottom: 10px;
+
+}
+
+.col {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+}
+
+.pad {
+    padding: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    background-color: var(--opp-dark-color);
+    width: 70%;
+    min-height: 100vh;
+    margin: 0 auto;
+    overflow: scroll;
+    border-left: 10px solid var(--accent-color);
+    border-right: 10px solid var(--accent-color);
+}
+
+.container2 {
+    width: 700px;
+    margin: 0 auto;
+}
+
+body {
+    background: black;
+}
+
+.margin {
+    margin-bottom: 1rem;
+}
+
+.marginside {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* ############################################################
+Text
+############################################################ */
+h1, h2, h3, h4, h5, h6, p, label, input  {
+    font-family: var(--font);
+    color: var(--font-color);
+    text-align: center;
+}
+
+h1 {
+    font-size: 9rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+label {
+    color: var(--dark-color);
+}
+
+label, input, button {
+    font-size: 1.5rem;
+}
+
+strong {
+    font-family: var(--font);
+    color: var(--accent-color);
+    text-align: center;
+}
+
+/* ############################################################
+Profile Cards
+############################################################ */
+.card {
+    border-radius: 2rem;
+    background-color: var(--dark-color);
+    margin: 0 auto;
+}
+
+/* ############################################################
+Images
+############################################################ */
+img {
+    height: 300px;
+    border-radius: 2rem;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 2;
+}
+
+/* ############################################################
+Interactive Elements
+############################################################ */
+input {
+    border-bottom: 2rem;
+}
+
+button {
+    font-family: var(--font);
+    padding: 0.5rem;
+}
+
+.button {
+    color: var(--accent-color);
+    background-color: var(--dark-color);
+    border: 2px solid var(--accent-color);
+    box-shadow: 0.2rem 0.2rem var(--accent-color);
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.button:hover {
+    color: var(--dark-color);
+    background-color: var(--font-color);
+    border: 2px solid var(--dark-color);
+    box-shadow: 0.2rem 0.2rem var(--dark-color);
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0.1rem 0.1rem var(--dark-color);
+}
+
+/* ############################################################
+Body
+############################################################ */
+.usernameInput {
+    background-color: var(--main-color);
+    padding: 1rem;
+    border-radius: 10px;
+}
