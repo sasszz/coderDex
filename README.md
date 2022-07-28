@@ -6,5 +6,6 @@
 
 ### Screen Capture of Web Page:
 <p align="center">
+  ### Screen Capture of Web Page:
   <img src="./assets/coderDexDemo.gif" />
 </p>
