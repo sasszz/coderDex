@@ -5,6 +5,4 @@
 - Using GitHub's API: https://api.github.com/users/
 - Pages link to site: https://sasszz.github.io/coderDex/
 
-<p align="center">
-  <img src="./assets/coderDexDemo.gif" />
-</p>
+ <img src="./assets/coderDexDemo.gif" />
